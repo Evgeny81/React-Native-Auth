@@ -38,8 +38,8 @@ const styles = StyleSheet.create({
         position: 'relative'
     },
     textStyle: {
-       fontSize: 20,
+       fontSize: 20
    }
 });
 
-export {Header};
+export {Header}; //shortcut for export {Header: Header}
