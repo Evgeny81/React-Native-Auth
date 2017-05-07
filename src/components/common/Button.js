@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {
     Text,
-    View,
     TouchableOpacity,
 } from 'react-native';
 
@@ -30,15 +29,15 @@ const styles = {
         paddingBottom: 10
     },
     buttonStyle: {
-        flex: 1,
+        width: '98%',
         alignSelf: 'stretch',
         backgroundColor: '#fff',
         borderRadius: 5,
         borderWidth: 1,
         borderColor: '#007aff',
         marginLeft: 5,
-        marginRight: 5,
+        marginRight: 5
     }
 };
 
-export {Button};
+export { Button };
